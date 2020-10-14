@@ -298,6 +298,9 @@ input::placeholder {
     padding: 2em;
     max-width: 29em; /* 400/16 = 25em + 4em van padding = 29em */
     margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .c-app__summary{
@@ -312,6 +315,7 @@ input::placeholder {
 */
 .c-horizon{
     margin-bottom: 2em;
+    margin-top: auto;
 }
 
 .c-horizon__sky-wrapper {
